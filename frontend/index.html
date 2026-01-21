@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Spoilage Tracking System</title>
+    <link rel="stylesheet" href="/css/style.css">
+<script src="/js/app.js"></script>
+
+</head>
+<body>
+
+<h1>Food Spoilage Tracking System</h1>
+
+<h2>Add Food Item</h2>
+<input id="itemName" placeholder="Food name"><br>
+<input id="quantity" type="number" placeholder="Quantity"><br>
+<input id="expiry" type="date"><br>
+<button onclick="addItem()">Add Item</button>
+
+<h2>Consume Food (FIFO)</h2>
+<input id="consumeName" placeholder="Food name"><br>
+<input id="consumeQty" type="number" placeholder="Quantity"><br>
+<button onclick="consumeItem()">Consume</button>
+
+<h2>Log Waste</h2>
+<input id="wasteName" placeholder="Food name"><br>
+<input id="wasteQty" type="number" placeholder="Quantity"><br>
+<input id="reason" placeholder="Reason"><br>
+<button onclick="logWaste()">Log Waste</button>
+
+<script src="js/app.js"></script>
+</body>
+</html>
